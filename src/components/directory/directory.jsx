@@ -1,4 +1,5 @@
-import DirectoryItem from '../directory-item/directory-item'
+import DirectoryItem from '../directory-item/directory-item';
+
 import './directory.scss'
 
 const categories = [
@@ -35,6 +36,8 @@ const categories = [
   ]
 
 const Directory = () => {
+
+
     return (
         <div className="categories-container">
             
