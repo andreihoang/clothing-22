@@ -1,6 +1,5 @@
 import './checkout-item.scss';
-// import { useContext } from 'react';
-// import { CartContext } from '../../contexts/cart.context';
+
 
 import { selectCartItems } from '../../store/cart/cart.selector';
 import { useSelector } from 'react-redux';
